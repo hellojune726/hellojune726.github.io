@@ -1,0 +1,60 @@
+{
+  "updated": "2026-10-08",
+  "figures": [
+    {
+      "container": "public-uptake-results",
+      "asset": "website/assets/research/wcnr12-capillary-fig4.webp",
+      "width": 1383,
+      "height": 808,
+      "heading": "Related published result · Water-vapor uptake in D₂O capillaries",
+      "viewer_title": "An et al., WCNR-12 proceedings (2026), Fig. 4 — D₂O capillary hydrogen profiles",
+      "alt": "Published neutron maps of hydrogen mole fraction versus time and distance in D2O-filled capillaries. Panel a, with the open end upward, shows a gradient near the open end. Panel b, with the open end downward, shows a more uniform profile. Color denotes H divided by H plus D from 0 to 0.2.",
+      "caption": "Open end upward (a): a hydrogen gradient develops. Open end downward (b): the profile remains more uniform. Color: H/(H+D).",
+      "source_url": "https://doi.org/10.1007/978-3-032-15003-5_27",
+      "source_label": "An et al., WCNR-12 proceedings (2026), Fig. 4",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_label": "CC BY 4.0",
+      "modification": "Cropped from the published PDF; data and labels unchanged."
+    },
+    {
+      "container": "public-freezing-results",
+      "asset": "website/assets/research/pva-freezing-fig1.webp",
+      "width": 1990,
+      "height": 787,
+      "heading": "PVA droplets · A rounder apex and fewer discrete bubbles",
+      "viewer_title": "An et al., arXiv:2606.01251v1, Fig. 1 — PVA and pure-water droplet comparison",
+      "alt": "Original optical and X-ray images compare frozen PVA solution in the top row and pure water in the bottom row. PVA droplets show a rounded apex and fewer discrete bubbles; pure water has a sharp tip and many bubbles. All six panels and scale bars are retained.",
+      "caption": "Optical and X-ray images compare frozen 3 wt% PVA solution (top) with pure water (bottom), using 10 µL droplets. PVA rounds the apex and reduces discrete bubble entrapment. Scale bars: white 1 mm; black 500 µm; red 100 µm.",
+      "source_url": "https://arxiv.org/abs/2606.01251v1",
+      "source_label": "An et al., public preprint arXiv:2606.01251v1, Fig. 1",
+      "modification": "Original panels and scale bars preserved."
+    },
+    {
+      "container": "public-freezing-results",
+      "asset": "website/assets/research/pva-freezing-fig2.webp",
+      "width": 1000,
+      "height": 1429,
+      "heading": "Tomography · Internal heterogeneity and surface texture",
+      "expandable": "View PVA tomographic cross-sections",
+      "viewer_title": "An et al., arXiv:2606.01251v1, Fig. 2 — Frozen-droplet tomographic cross-sections",
+      "alt": "X-ray CT cross-sections of frozen pure water and PVA solution with original panels a through e and scale bars. Pure water contains discrete bubbles. The PVA specimen shows heterogeneous internal and near-surface features. CT contrast does not identify the local physical state.",
+      "caption": "CT compares discrete bubbles in pure ice with heterogeneous internal and near-surface features in frozen 3 wt% PVA droplets. Contrast alone does not establish local composition or physical state. Scale bars: black 500 µm; white 50 µm.",
+      "source_url": "https://arxiv.org/abs/2606.01251v1",
+      "source_label": "An et al., public preprint arXiv:2606.01251v1, Fig. 2",
+      "modification": "Original panels and scale bars preserved."
+    },
+    {
+      "container": "public-freezing-results",
+      "asset": "website/assets/research/water-freezing-fig2.webp",
+      "width": 2100,
+      "height": 1095,
+      "heading": "Water droplets · Trapped bubbles and the final tip angle",
+      "viewer_title": "Im et al., arXiv:2511.20571v1, Fig. 2 — Trapped bubbles and tip angles",
+      "alt": "Original X-ray radiographs show water droplets frozen at minus 5, minus 10, and minus 20 degrees Celsius, with bubble-free vacuum comparisons. The graph plots measured tip angle against substrate temperature for ambient pressure and vacuum conditions. All panels a through f, scales, and graph labels are preserved.",
+      "caption": "X-ray images and tip-angle measurements of 1 µL water droplets compare substrate temperatures and ambient-pressure versus vacuum conditions, linking trapped bubbles to the final shape. All scale bars: 200 µm.",
+      "source_url": "https://arxiv.org/abs/2511.20571v1",
+      "source_label": "Im et al., public preprint arXiv:2511.20571v1, Fig. 2",
+      "modification": "Original panels, scales, and measured data preserved."
+    }
+  ]
+}
