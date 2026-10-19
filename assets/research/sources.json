@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-19",
   "figures": [
     {
       "container": "public-uptake-results",
@@ -56,5 +56,115 @@
       "source_label": "Im et al., public preprint arXiv:2511.20571v1, Fig. 2",
       "modification": "Original panels, scales, and measured data preserved."
     }
-  ]
+  ],
+  "detector_palette": {
+    "housing": "#e5f2c8",
+    "pixels": [
+      "#b6d56f",
+      "#d3e9a0"
+    ],
+    "applies_to": "Website-native schematics only; original experimental figures are not recolored."
+  },
+  "method_figures": [
+    {
+      "asset": "website/assets/research/ice2025-ct-water.webp",
+      "source_file_name": "2025_ICE_HA_poster_vFinal.pdf",
+      "source_sha256": "2ada27a4c3522c0dfb9b9bf947fb481b324adc4f0b3a7072d08962422aeeda9f",
+      "source_page": 1,
+      "source_xref": 60,
+      "source_image_dimensions": [
+        1761,
+        1761
+      ],
+      "label": "ICE 2025 poster, CT image: Pure water",
+      "description": "Original embedded experimental CT image object. Specimen label is retained as adjacent HTML text; poster connectors and interpretation text are not reproduced.",
+      "width": 1000,
+      "height": 1000,
+      "asset_sha256": "318eaf153432b4c9cf14475bce6fd444ccfd079d137c04ca8829cf0660ded294",
+      "modification": "Original PDF image object extracted, resized for web display and losslessly encoded. No redrawing, added structures, contrast/color editing, or invented scale bar."
+    },
+    {
+      "asset": "website/assets/research/ice2025-ct-pva.webp",
+      "source_file_name": "2025_ICE_HA_poster_vFinal.pdf",
+      "source_sha256": "2ada27a4c3522c0dfb9b9bf947fb481b324adc4f0b3a7072d08962422aeeda9f",
+      "source_page": 1,
+      "source_xref": 61,
+      "source_image_dimensions": [
+        1761,
+        1761
+      ],
+      "label": "ICE 2025 poster, CT image: PVA 3 wt%",
+      "description": "Original embedded experimental CT image object. Specimen label is retained as adjacent HTML text; poster connectors and interpretation text are not reproduced.",
+      "width": 1000,
+      "height": 1000,
+      "asset_sha256": "cf57082d45aabd275affdb06ac69cf3c71f77cecb74e670067aa05ca84e58d3f",
+      "modification": "Original PDF image object extracted, resized for web display and losslessly encoded. No redrawing, added structures, contrast/color editing, or invented scale bar."
+    },
+    {
+      "asset": "website/assets/research/pva-raman-figure3.webp",
+      "source_file_name": "HALJ_PVADrop(1).pdf",
+      "source_sha256": "340c1528c325e3d8bfb18e46442cc0910e7f905db3d6797b3a8cf57e36f11230",
+      "source_page": 13,
+      "crop_pdf_points": [
+        154,
+        169,
+        390,
+        461
+      ],
+      "render_scale": 4.2,
+      "label": "PVA droplet manuscript, Fig. 3(a–d)",
+      "description": "Original microtoming sketch, Raman spectra, reflection image, and relative PVA-associated Raman intensity map. Original panel labels, 50 micrometre scale and color bar retained.",
+      "width": 992,
+      "height": 1228,
+      "asset_sha256": "ff860605307fb671d87531704b489427c6e5c585506cea6362d83b570f3e49a4",
+      "modification": "Original PDF figure region rendered and losslessly encoded for the web. No redrawing, relabeling, contrast change or color change."
+    },
+    {
+      "asset": "website/assets/research/water-freezing-timelapse.webp",
+      "source_file_name": "2511.20571.pdf",
+      "source_url": "https://arxiv.org/abs/2511.20571v1",
+      "source_sha256": "abfee99f34de70e57360ba230dd42f5ed1ee08319b0c1f9e06ad1a8f0723dd4b",
+      "source_page": 2,
+      "source_xref": 45,
+      "source_image_dimensions": [
+        3898,
+        1937
+      ],
+      "crop_original_pixels": [
+        0,
+        997,
+        3898,
+        1937
+      ],
+      "label": "Im et al., arXiv:2511.20571v1, Fig. 1(d–f)",
+      "width": 2100,
+      "height": 506,
+      "asset_sha256": "65b3c07cde1ec58ce09148b27ad097deb04db58dd6bbc6ca0f8e75dbc6590c4f",
+      "modification": "Original figure image cropped to the specified panels, scaled for web display and losslessly encoded. Original time labels, ice-front arrows and data retained; no redrawing or contrast/color edits."
+    },
+    {
+      "asset": "website/assets/research/water-freezing-front-frame.webp",
+      "source_file_name": "2511.20571.pdf",
+      "source_url": "https://arxiv.org/abs/2511.20571v1",
+      "source_sha256": "abfee99f34de70e57360ba230dd42f5ed1ee08319b0c1f9e06ad1a8f0723dd4b",
+      "source_page": 2,
+      "source_xref": 45,
+      "source_image_dimensions": [
+        3898,
+        1937
+      ],
+      "crop_original_pixels": [
+        1310,
+        997,
+        2585,
+        1937
+      ],
+      "label": "Im et al., arXiv:2511.20571v1, Fig. 1(e)",
+      "width": 720,
+      "height": 531,
+      "asset_sha256": "9066136a8abc4c7b80ffde5221dfcbc1e192be23edf6a5265fef3537f9506ccd",
+      "modification": "Original figure image cropped to the specified panels, scaled for web display and losslessly encoded. Original time labels, ice-front arrows and data retained; no redrawing or contrast/color edits."
+    }
+  ],
+  "method_permissions": "ICE 2025 experimental CT image excerpts are included at the explicit request of the author on 19 October 2026. No full poster PDF or preview, and no unrelated poster figures, are included."
 }
