@@ -166,5 +166,15 @@
       "modification": "Original figure image cropped to the specified panels, scaled for web display and losslessly encoded. Original time labels, ice-front arrows and data retained; no redrawing or contrast/color edits."
     }
   ],
-  "method_permissions": "ICE 2025 experimental CT image excerpts are included at the explicit request of the author on 19 October 2026. No full poster PDF or preview, and no unrelated poster figures, are included."
+  "method_permissions": "ICE 2025 experimental CT image excerpts are included at the explicit request of the author on 19 October 2026. No full poster PDF or preview, and no unrelated poster figures, are included.",
+  "publication_update": {
+    "pva_droplet_study": {
+      "status": "published",
+      "journal": "Journal of Colloid and Interface Science",
+      "year": 2026,
+      "article_number": "141826",
+      "doi": "https://doi.org/10.1016/j.jcis.2026.141826",
+      "verified_metadata_source": "https://api.crossref.org/works/10.1016/j.jcis.2026.141826"
+    }
+  }
 }
