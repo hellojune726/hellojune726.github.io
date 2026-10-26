@@ -101,38 +101,30 @@
   },
   "method_figures": [
     {
-      "asset": "website/assets/research/ice2025-ct-water.webp",
-      "source_file_name": "2025_ICE_HA_poster_vFinal.pdf",
-      "source_sha256": "2ada27a4c3522c0dfb9b9bf947fb481b324adc4f0b3a7072d08962422aeeda9f",
-      "source_page": 1,
-      "source_xref": 60,
-      "source_image_dimensions": [
-        1761,
-        1761
+      "container": "jcis-ct-structure",
+      "asset": "assets/research/jcis-figure2-published.webp",
+      "label": "An et al., JCIS, Figure 2(a–e)",
+      "viewer_title": "An et al., JCIS, Fig. 2 — Horizontal X-ray CT cross-sections of frozen water and PVA solution",
+      "caption": "Horizontal X-ray CT cross-sections of frozen pure water (a, b) and 3 wt% PVA solution (c–e).",
+      "alt": "Published JCIS Figure 2, panels a through e: horizontal X-ray CT cross-sections of frozen pure water (a) and 3 wt% PVA solution (c), with magnified views of trapped bubbles (b), internal heterogeneity (d), and near-surface structure (e). The original schematic shows the horizontal sectioning plane. Original panel labels, annotations, and scale bars are preserved.",
+      "source_title": "Polymer-regulated freezing of water droplets revealed by synchrotron X-ray imaging and Raman spectroscopy",
+      "source_publication": "Journal of Colloid and Interface Science 729 (2027), 141826",
+      "source_url": "https://doi.org/10.1016/j.jcis.2026.141826",
+      "source_file_name": "1-s2.0-S0021979726020035-main.pdf",
+      "source_sha256": "b50c8dc25af2e7aeabb5bf5422e8bb243b84bd4906c809cc1d3f5d67e5cdda05",
+      "source_page": 4,
+      "crop_pdf_points": [
+        49,
+        56,
+        278,
+        389
       ],
-      "label": "ICE 2025 poster, CT image: Pure water",
-      "description": "Original embedded experimental CT image object. Specimen label is retained as adjacent HTML text; poster connectors and interpretation text are not reproduced.",
-      "width": 1000,
-      "height": 1000,
-      "asset_sha256": "318eaf153432b4c9cf14475bce6fd444ccfd079d137c04ca8829cf0660ded294",
-      "modification": "Original PDF image object extracted, resized for web display and losslessly encoded. No redrawing, added structures, contrast/color editing, or invented scale bar."
-    },
-    {
-      "asset": "website/assets/research/ice2025-ct-pva.webp",
-      "source_file_name": "2025_ICE_HA_poster_vFinal.pdf",
-      "source_sha256": "2ada27a4c3522c0dfb9b9bf947fb481b324adc4f0b3a7072d08962422aeeda9f",
-      "source_page": 1,
-      "source_xref": 61,
-      "source_image_dimensions": [
-        1761,
-        1761
-      ],
-      "label": "ICE 2025 poster, CT image: PVA 3 wt%",
-      "description": "Original embedded experimental CT image object. Specimen label is retained as adjacent HTML text; poster connectors and interpretation text are not reproduced.",
-      "width": 1000,
-      "height": 1000,
-      "asset_sha256": "cf57082d45aabd275affdb06ac69cf3c71f77cecb74e670067aa05ca84e58d3f",
-      "modification": "Original PDF image object extracted, resized for web display and losslessly encoded. No redrawing, added structures, contrast/color editing, or invented scale bar."
+      "render_scale": 4.2,
+      "width": 963,
+      "height": 1399,
+      "asset_sha256": "5dfa8f23581c5e468c219b96577bcd16e78edaa1ce8b5224f6a13a0283690946",
+      "description": "The complete original published Figure 2, including panels a–e and the sectioning schematic; figure caption is supplied separately in HTML.",
+      "modification": "The published PDF figure region was rendered in RGB and losslessly encoded as WebP. Original panels, labels, scale bars, and published contrast are preserved; no redrawing, relabeling, or manual color/contrast edits."
     },
     {
       "asset": "website/assets/research/pva-raman-figure3.webp",
@@ -200,7 +192,6 @@
       "modification": "Original figure image cropped to the specified panels, scaled for web display and losslessly encoded. Original time labels, ice-front arrows and data retained; no redrawing or contrast/color edits."
     }
   ],
-  "method_permissions": "ICE 2025 experimental CT image excerpts are included at the explicit request of the author on 19 October 2026. No full poster PDF or preview, and no unrelated poster figures, are included.",
   "publication_update": {
     "pva_droplet_study": {
       "status": "published",
