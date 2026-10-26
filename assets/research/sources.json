@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-25",
   "figures": [
+    {
+      "container": "neutron-composition",
+      "role": "Methodological reference by Im et al.; not a publication authored by Hyeonjun An.",
+      "asset": "assets/research/matter2021-figure3.webp",
+      "width": 2023,
+      "height": 1040,
+      "heading": "H/D contrast for quantitative composition",
+      "viewer_title": "Im et al., Matter (2021), Fig. 3 — Neutron transmittance, attenuation and H₂O composition",
+      "alt": "Original Figure 3 from Im et al., Matter (2021). Panel A shows neutron radiographs of an evaporating D₂O droplet at 0, 300 and 600 seconds, with a 0.5 mm scale bar and the original transmittance grayscale. Panel B shows transmittance profiles and Beer–Lambert fits; C shows droplet volume; D shows the attenuation coefficient and absorbed H₂O mole fraction versus time. Original axes, data, uncertainty bars and model curves are retained.",
+      "source_title": "High-resolution neutron imaging reveals kinetics of water vapor uptake into a sessile water droplet",
+      "source_authors": [
+        "Jae Kwan Im",
+        "Leekyo Jeong",
+        "Jan Crha",
+        "Pavel Trtik",
+        "Joonwoo Jeong"
+      ],
+      "source_url": "https://doi.org/10.1016/j.matt.2021.04.013",
+      "source_label": "Im et al., Matter 4, 2083–2096 (2021), Fig. 3",
+      "source_file_name": "MATTER2021.pdf",
+      "source_sha256": "c509a5b4d69abbb3fb677361d4a0aef47dec0368f459e473e4fe9d0839e0bb90",
+      "source_page": 6,
+      "source_xref": 159,
+      "source_image_dimensions": [
+        2023,
+        1040
+      ],
+      "source_image_sha256": "c4184fba24e7812c20988d1b7dc599ea1f7d474ce1d9131f1bd7ce7cd4a44b6b",
+      "asset_sha256": "33b3c0252b289e29f4e2b01968fbfeaa5daf79e10f70a326b58fb95494e694d8",
+      "copyright": "© 2021 Elsevier Inc.",
+      "modification": "The complete original Figure 3 image object was extracted from the published PDF and losslessly encoded as WebP. Decoded RGB pixels match the source image; no cropping, resizing, redrawing, relabeling, contrast or color editing."
+    },
     {
       "container": "public-uptake-results",
       "asset": "website/assets/research/wcnr12-capillary-fig4.webp",
