@@ -1,0 +1,218 @@
+{
+  "updated": "2026-10-26",
+  "figures": [
+    {
+      "container": "neutron-composition",
+      "role": "Methodological reference by Im et al.; not a publication authored by Hyeonjun An.",
+      "asset": "assets/research/matter2021-graphical-abstract.webp",
+      "width": 1325,
+      "height": 1325,
+      "heading": "H/D contrast for quantitative composition",
+      "viewer_title": "Im et al., Matter (2021) — Graphical abstract: water-vapor uptake into an evaporating D₂O droplet",
+      "alt": "Original graphical abstract from Im et al., Matter (2021). A neutron beam passes through a sessile D₂O droplet. The schematic shows D₂O evaporation and H₂O vapor condensation. Below, neutron radiographs at 0, 300 and 600 seconds show increasing H₂O concentration, with the original transmittance grayscale and 0.5 mm scale bar.",
+      "source_title": "High-resolution neutron imaging reveals kinetics of water vapor uptake into a sessile water droplet",
+      "source_authors": [
+        "Jae Kwan Im",
+        "Leekyo Jeong",
+        "Jan Crha",
+        "Pavel Trtik",
+        "Joonwoo Jeong"
+      ],
+      "source_url": "https://doi.org/10.1016/j.matt.2021.04.013",
+      "source_label": "Im et al., Matter 4, 2083–2096 (2021), graphical abstract",
+      "source_file_name": "MATTER2021.pdf",
+      "source_sha256": "c509a5b4d69abbb3fb677361d4a0aef47dec0368f459e473e4fe9d0839e0bb90",
+      "source_page": 1,
+      "source_xref": 953,
+      "source_image_dimensions": [
+        1325,
+        1325
+      ],
+      "source_image_sha256": "706f41cf8ecf5d159e833283b10e8d44171efb85c067bd41395968dadcbeb735",
+      "asset_sha256": "ae8ebaae947e147315cb5dc27b3a0756d26b41d9d574aabffdd36bda40d5ea83",
+      "copyright": "© 2021 Elsevier Inc.",
+      "modification": "The complete original graphical abstract image object was extracted from the published PDF and losslessly encoded as WebP. Decoded RGB pixels match the source image; no cropping, resizing, redrawing, relabeling, contrast or color editing.",
+      "caption": "An evaporating D₂O droplet absorbs H₂O vapor from the air; neutron radiographs track the increasing H₂O content."
+    },
+    {
+      "container": "public-uptake-results",
+      "asset": "website/assets/research/wcnr12-capillary-fig4.webp",
+      "width": 1383,
+      "height": 808,
+      "heading": "Published result · Water-vapor uptake in capillaries",
+      "viewer_title": "An et al., WCNR-12 proceedings (2026), Fig. 4 — D₂O capillary hydrogen profiles",
+      "alt": "Published neutron maps of hydrogen mole fraction versus time and distance in D2O-filled capillaries. Panel a, with the open end upward, shows a gradient near the open end. Panel b, with the open end downward, shows a more uniform profile. Color denotes H divided by H plus D from 0 to 0.2.",
+      "caption": "Open end upward (a): a hydrogen gradient develops. Open end downward (b): the profile remains more uniform. Color: H/(H+D).",
+      "source_url": "https://doi.org/10.1007/978-3-032-15003-5_27",
+      "source_label": "An et al., WCNR-12 proceedings (2026), Fig. 4",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_label": "CC BY 4.0",
+      "modification": "Cropped from the published PDF; data and labels unchanged.",
+      "placement": "Final block in Water vapor uptake in hygroscopic liquid, after the experiment explanation and related links."
+    },
+    {
+      "container": "public-freezing-results",
+      "asset": "website/assets/research/pva-freezing-fig1.webp",
+      "width": 1990,
+      "height": 787,
+      "heading": "PVA droplets · A rounder apex and fewer discrete bubbles",
+      "viewer_title": "An et al., arXiv:2606.01251v1, Fig. 1 — PVA and pure-water droplet comparison",
+      "alt": "Original optical and X-ray images compare frozen PVA solution in the top row and pure water in the bottom row. PVA droplets show a rounded apex and fewer discrete bubbles; pure water has a sharp tip and many bubbles. All six panels and scale bars are retained.",
+      "caption": "Optical and X-ray images compare frozen 3 wt% PVA solution (top) with pure water (bottom), using 10 µL droplets. PVA rounds the apex and reduces discrete bubble entrapment. Scale bars: white 1 mm; black 500 µm; red 100 µm.",
+      "source_url": "https://arxiv.org/abs/2606.01251v1",
+      "source_label": "An et al., public preprint arXiv:2606.01251v1, Fig. 1",
+      "modification": "Original panels and scale bars preserved."
+    },
+    {
+      "container": "public-freezing-results",
+      "asset": "website/assets/research/pva-freezing-fig2.webp",
+      "width": 1000,
+      "height": 1429,
+      "heading": "Tomography · Internal heterogeneity and surface texture",
+      "expandable": "View PVA tomographic cross-sections",
+      "viewer_title": "An et al., arXiv:2606.01251v1, Fig. 2 — Frozen-droplet tomographic cross-sections",
+      "alt": "X-ray CT cross-sections of frozen pure water and PVA solution with original panels a through e and scale bars. Pure water contains discrete bubbles. The PVA specimen shows heterogeneous internal and near-surface features. CT contrast does not identify the local physical state.",
+      "caption": "CT compares discrete bubbles in pure ice with heterogeneous internal and near-surface features in frozen 3 wt% PVA droplets. Contrast alone does not establish local composition or physical state. Scale bars: black 500 µm; white 50 µm.",
+      "source_url": "https://arxiv.org/abs/2606.01251v1",
+      "source_label": "An et al., public preprint arXiv:2606.01251v1, Fig. 2",
+      "modification": "Original panels and scale bars preserved."
+    },
+    {
+      "container": "public-freezing-results",
+      "asset": "website/assets/research/water-freezing-fig2.webp",
+      "width": 2100,
+      "height": 1095,
+      "heading": "Water droplets · Trapped bubbles and the final tip angle",
+      "viewer_title": "Im et al., arXiv:2511.20571v1, Fig. 2 — Trapped bubbles and tip angles",
+      "alt": "Original X-ray radiographs show water droplets frozen at minus 5, minus 10, and minus 20 degrees Celsius, with bubble-free vacuum comparisons. The graph plots measured tip angle against substrate temperature for ambient pressure and vacuum conditions. All panels a through f, scales, and graph labels are preserved.",
+      "caption": "X-ray images and tip-angle measurements of 1 µL water droplets compare substrate temperatures and ambient-pressure versus vacuum conditions, linking trapped bubbles to the final shape. All scale bars: 200 µm.",
+      "source_url": "https://arxiv.org/abs/2511.20571v1",
+      "source_label": "Im et al., public preprint arXiv:2511.20571v1, Fig. 2",
+      "modification": "Original panels, scales, and measured data preserved."
+    }
+  ],
+  "detector_palette": {
+    "housing": "#e5f2c8",
+    "pixels": [
+      "#b6d56f",
+      "#d3e9a0"
+    ],
+    "applies_to": "Website-native schematics only; original experimental figures are not recolored."
+  },
+  "method_figures": [
+    {
+      "container": "jcis-ct-structure",
+      "asset": "assets/research/jcis-figure2-published.webp",
+      "label": "An et al., JCIS, Figure 2(a–e)",
+      "viewer_title": "An et al., JCIS, Fig. 2 — Horizontal X-ray CT cross-sections of frozen water and PVA solution",
+      "caption": "Horizontal X-ray CT cross-sections of frozen pure water (a, b) and 3 wt% PVA solution (c–e). Magnified views show trapped bubbles (b), internal heterogeneity (d), and near-surface features (e).",
+      "alt": "Published JCIS Figure 2, panels a through e: horizontal X-ray CT cross-sections of frozen pure water (a) and 3 wt% PVA solution (c), with magnified views of trapped bubbles (b), internal heterogeneity (d), and near-surface structure (e). The original schematic shows the horizontal sectioning plane. Original panel labels, annotations, and scale bars are preserved.",
+      "source_title": "Polymer-regulated freezing of water droplets revealed by synchrotron X-ray imaging and Raman spectroscopy",
+      "source_publication": "Journal of Colloid and Interface Science 729 (2027), 141826",
+      "source_url": "https://doi.org/10.1016/j.jcis.2026.141826",
+      "source_file_name": "1-s2.0-S0021979726020035-main.pdf",
+      "source_sha256": "b50c8dc25af2e7aeabb5bf5422e8bb243b84bd4906c809cc1d3f5d67e5cdda05",
+      "source_page": 4,
+      "crop_pdf_points": [
+        49,
+        56,
+        278,
+        389
+      ],
+      "render_scale": 4.2,
+      "width": 963,
+      "height": 1399,
+      "asset_sha256": "5dfa8f23581c5e468c219b96577bcd16e78edaa1ce8b5224f6a13a0283690946",
+      "description": "The complete original published Figure 2, including panels a–e and the sectioning schematic; figure caption is supplied separately in HTML.",
+      "modification": "The published PDF figure region was rendered in RGB and losslessly encoded as WebP. Original panels, labels, scale bars, and published contrast are preserved; no redrawing, relabeling, or manual color/contrast edits.",
+      "heading": "X-ray CT · Internal structure",
+      "scale_caption": "Scale bars: 500 µm (a); 50 µm (b).",
+      "source_label": "An et al. · JCIS · Figure 2"
+    },
+    {
+      "container": "jcis-raman-chemistry",
+      "asset": "assets/research/jcis-figure3-published.webp",
+      "label": "An et al., JCIS, Figure 3(a–d)",
+      "heading": "Raman · PVA-associated signal",
+      "viewer_title": "An et al., JCIS, Fig. 3 — Raman spectra and relative PVA-associated intensity",
+      "caption": "Raman characterization of a frozen 3 wt% PVA droplet: sectioning schematic (a), spectra (b), reflection image (c), and relative PVA-associated intensity near 1450 cm⁻¹ (d).",
+      "scale_caption": "Scale bar: 50 µm (c).",
+      "source_label": "An et al. · JCIS · Figure 3",
+      "alt": "Published JCIS Figure 3, panels a through d: preparation of a horizontal cross-section by microtoming (a), Raman spectra from regions with low and high PVA-associated signal (b), reflection image of the near-surface region with its 50 micrometre scale bar (c), and an overlaid relative PVA-associated Raman intensity map near 1450 inverse centimetres (d). Original panel labels, annotations, spectral axes, and relative intensity color bar are retained.",
+      "source_title": "Polymer-regulated freezing of water droplets revealed by synchrotron X-ray imaging and Raman spectroscopy",
+      "source_publication": "Journal of Colloid and Interface Science 729 (2027), 141826",
+      "source_url": "https://doi.org/10.1016/j.jcis.2026.141826",
+      "source_file_name": "1-s2.0-S0021979726020035-main.pdf",
+      "source_sha256": "b50c8dc25af2e7aeabb5bf5422e8bb243b84bd4906c809cc1d3f5d67e5cdda05",
+      "source_page": 4,
+      "crop_pdf_points": [
+        318,
+        55,
+        552,
+        345
+      ],
+      "render_scale": 4.2,
+      "width": 984,
+      "height": 1218,
+      "asset_sha256": "cc6cedf095d0dd55c6f6539fec96fb7324688c3fcef1a122439592d4d2b2b658",
+      "description": "Complete original published Figure 3(a–d), including the sectioning schematic, spectra, reflection image, and relative Raman-intensity overlay.",
+      "modification": "The published PDF figure region was rendered in RGB and losslessly encoded as WebP. Original panels, labels, scale bar, spectral axes, and relative intensity color bar are preserved; no redrawing, relabeling, or manual color/contrast editing."
+    },
+    {
+      "asset": "website/assets/research/water-freezing-timelapse.webp",
+      "source_file_name": "2511.20571.pdf",
+      "source_url": "https://arxiv.org/abs/2511.20571v1",
+      "source_sha256": "abfee99f34de70e57360ba230dd42f5ed1ee08319b0c1f9e06ad1a8f0723dd4b",
+      "source_page": 2,
+      "source_xref": 45,
+      "source_image_dimensions": [
+        3898,
+        1937
+      ],
+      "crop_original_pixels": [
+        0,
+        997,
+        3898,
+        1937
+      ],
+      "label": "Im et al., arXiv:2511.20571v1, Fig. 1(d–f)",
+      "width": 2100,
+      "height": 506,
+      "asset_sha256": "65b3c07cde1ec58ce09148b27ad097deb04db58dd6bbc6ca0f8e75dbc6590c4f",
+      "modification": "Original figure image cropped to the specified panels, scaled for web display and losslessly encoded. Original time labels, ice-front arrows and data retained; no redrawing or contrast/color edits."
+    },
+    {
+      "asset": "website/assets/research/water-freezing-front-frame.webp",
+      "source_file_name": "2511.20571.pdf",
+      "source_url": "https://arxiv.org/abs/2511.20571v1",
+      "source_sha256": "abfee99f34de70e57360ba230dd42f5ed1ee08319b0c1f9e06ad1a8f0723dd4b",
+      "source_page": 2,
+      "source_xref": 45,
+      "source_image_dimensions": [
+        3898,
+        1937
+      ],
+      "crop_original_pixels": [
+        1310,
+        997,
+        2585,
+        1937
+      ],
+      "label": "Im et al., arXiv:2511.20571v1, Fig. 1(e)",
+      "width": 720,
+      "height": 531,
+      "asset_sha256": "9066136a8abc4c7b80ffde5221dfcbc1e192be23edf6a5265fef3537f9506ccd",
+      "modification": "Original figure image cropped to the specified panels, scaled for web display and losslessly encoded. Original time labels, ice-front arrows and data retained; no redrawing or contrast/color edits."
+    }
+  ],
+  "publication_update": {
+    "pva_droplet_study": {
+      "status": "published",
+      "journal": "Journal of Colloid and Interface Science",
+      "year": 2026,
+      "article_number": "141826",
+      "doi": "https://doi.org/10.1016/j.jcis.2026.141826",
+      "verified_metadata_source": "https://api.crossref.org/works/10.1016/j.jcis.2026.141826"
+    }
+  }
+}
