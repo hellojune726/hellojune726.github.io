@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "figures": [
     {
       "container": "neutron-composition",
@@ -36,7 +36,7 @@
     },
     {
       "container": "public-uptake-results",
-      "asset": "website/assets/research/wcnr12-capillary-fig4.webp",
+      "asset": "assets/research/wcnr12-capillary-fig4.webp",
       "width": 1383,
       "height": 808,
       "heading": "Published result · Water-vapor uptake in capillaries",
@@ -52,7 +52,7 @@
     },
     {
       "container": "public-freezing-results",
-      "asset": "website/assets/research/pva-freezing-fig1.webp",
+      "asset": "assets/research/pva-freezing-fig1.webp",
       "width": 1990,
       "height": 787,
       "heading": "PVA droplets · A rounder apex and fewer discrete bubbles",
@@ -65,7 +65,7 @@
     },
     {
       "container": "public-freezing-results",
-      "asset": "website/assets/research/pva-freezing-fig2.webp",
+      "asset": "assets/research/pva-freezing-fig2.webp",
       "width": 1000,
       "height": 1429,
       "heading": "Tomography · Internal heterogeneity and surface texture",
@@ -79,7 +79,7 @@
     },
     {
       "container": "public-freezing-results",
-      "asset": "website/assets/research/water-freezing-fig2.webp",
+      "asset": "assets/research/water-freezing-fig2.webp",
       "width": 2100,
       "height": 1095,
       "heading": "Water droplets · Trapped bubbles and the final tip angle",
@@ -159,7 +159,7 @@
       "modification": "The published PDF figure region was rendered in RGB and losslessly encoded as WebP. Original panels, labels, scale bar, spectral axes, and relative intensity color bar are preserved; no redrawing, relabeling, or manual color/contrast editing."
     },
     {
-      "asset": "website/assets/research/water-freezing-timelapse.webp",
+      "asset": "assets/research/water-freezing-timelapse.webp",
       "source_file_name": "2511.20571.pdf",
       "source_url": "https://arxiv.org/abs/2511.20571v1",
       "source_sha256": "abfee99f34de70e57360ba230dd42f5ed1ee08319b0c1f9e06ad1a8f0723dd4b",
@@ -182,7 +182,7 @@
       "modification": "Original figure image cropped to the specified panels, scaled for web display and losslessly encoded. Original time labels, ice-front arrows and data retained; no redrawing or contrast/color edits."
     },
     {
-      "asset": "website/assets/research/water-freezing-front-frame.webp",
+      "asset": "assets/research/water-freezing-front-frame.webp",
       "source_file_name": "2511.20571.pdf",
       "source_url": "https://arxiv.org/abs/2511.20571v1",
       "source_sha256": "abfee99f34de70e57360ba230dd42f5ed1ee08319b0c1f9e06ad1a8f0723dd4b",
@@ -209,10 +209,30 @@
     "pva_droplet_study": {
       "status": "published",
       "journal": "Journal of Colloid and Interface Science",
-      "year": 2026,
+      "year": 2027,
       "article_number": "141826",
       "doi": "https://doi.org/10.1016/j.jcis.2026.141826",
-      "verified_metadata_source": "https://api.crossref.org/works/10.1016/j.jcis.2026.141826"
+      "verified_metadata_source": "https://api.crossref.org/works/10.1016/j.jcis.2026.141826",
+      "volume": 729,
+      "published_online_year": 2026
     }
-  }
+  },
+  "conference_presentations": [
+    {
+      "id": "talk-dsoft-virtual-2026",
+      "conference": "APS DSOFT Students’ Virtual Conference",
+      "date": "2026-11-10",
+      "timezone": "America/New_York",
+      "conference_hours": "10:00–17:00 EST (UTC−5)",
+      "presentation_title": "Quantifying polymer swelling kinetics via neutron radiography",
+      "session": "Session 4: Complex and Interfacial Flows",
+      "speaker": "Hyeonjun An",
+      "affiliation": "Ulsan National Institute of Science and Technology (UNIST)",
+      "sources": [
+        "VSC2026_Poster.pdf",
+        "VSCPromoSchedule.pdf"
+      ],
+      "note": "Date, conference hours, session, speaker, and talk title verified against the supplied poster and promotional schedule. No individual talk time is specified in these documents."
+    }
+  ]
 }
