@@ -232,7 +232,7 @@
         "VSC2026_Poster.pdf",
         "VSCPromoSchedule.pdf"
       ],
-      "note": "Conference date, hours, title, and speaking order are shown in the supplied promotional schedule. Session 4 timing (15:20–16:35 EST) and the five-speaker order were provided by Hyeonjun An on 3 November 2026. The individual 15:50–16:05 EST slot is an estimate, not a separately confirmed organiser timetable.",
+      "note": "Conference date, hours, title, and speaking order are shown in the supplied promotional schedule. Session 4 timing (15:20–16:35 EST) and the five-speaker order were provided by Hyeonjun An on 3 November 2026.",
       "session_start": "2026-11-10T15:20:00-05:00",
       "session_end": "2026-11-10T16:35:00-05:00",
       "speaking_order": [
@@ -242,14 +242,6 @@
         "David Meer",
         "Christina Puijk"
       ],
-      "estimated_talk": {
-        "status": "estimated",
-        "start": "2026-11-10T15:50:00-05:00",
-        "end": "2026-11-10T16:05:00-05:00",
-        "start_kst": "2026-11-11T05:50:00+09:00",
-        "end_kst": "2026-11-11T06:05:00+09:00",
-        "basis": "Third speaker in a 75-minute session with five speakers; assumes five equal 15-minute slots."
-      },
       "schedule_image": {
         "asset": "assets/conferences/dsoft-virtual-2026-schedule.webp",
         "width": 1600,
