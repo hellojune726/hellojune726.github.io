@@ -295,6 +295,8 @@ strong { font-weight: 650; }
 .result-trigger img { width: 100%; height: auto; max-height: 740px; object-fit: contain; }
 .figure-caption, .method-result-credit { font-size: .88rem; line-height: 1.65; }
 .figure-caption { padding-top: 16px; max-width: 76ch; }
+.conference-schedule { width: 100%; max-width: 560px; margin: 24px 0 0; }
+.conference-schedule .result-trigger img { max-height: none; }
 .supporting-media { margin-top: 30px; border-top: 1px solid var(--line); }
 .supporting-media > summary, .past-posters > summary, .more-cv > summary { cursor: pointer; font-size: .92rem; min-height: 50px; padding: 16px 0; }
 .public-extra { margin: 24px 0 0; }

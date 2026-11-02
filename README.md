@@ -24,7 +24,7 @@ Reference images and fonts by their asset paths so they can be cached separately
 
 Publication year and online publication year can differ. The PVA paper is cited as *Journal of Colloid and Interface Science* **729**, 141826 (2027; published online in 2026).
 
-The 10 November 2026 APS DSOFT conference entry uses the supplied conference poster and promotional schedule. The event runs 10 a.m.–5 p.m. EST; the schedule identifies Session 4 and the talk title but does not specify an individual talk time. Update the Upcoming entries after the event.
+The 10 November 2026 APS DSOFT conference entry uses the supplied conference poster and promotional schedule. Session 4 runs 15:20–16:35 EST according to the session timing supplied by Hyeonjun An. His estimated slot is 15:50–16:05 EST on 10 November (05:50–06:05 KST on 11 November), calculated from third position among five equal 15-minute slots. Keep the individual time explicitly marked as estimated. The full promotional schedule is in `assets/conferences/` and opens in the image viewer. Update the Upcoming entries after the event.
 
 ## Validation
 

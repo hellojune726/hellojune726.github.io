@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "figures": [
     {
       "container": "neutron-composition",
@@ -232,7 +232,34 @@
         "VSC2026_Poster.pdf",
         "VSCPromoSchedule.pdf"
       ],
-      "note": "Date, conference hours, session, speaker, and talk title verified against the supplied poster and promotional schedule. No individual talk time is specified in these documents."
+      "note": "Conference date, hours, title, and speaking order are shown in the supplied promotional schedule. Session 4 timing (15:20–16:35 EST) and the five-speaker order were provided by Hyeonjun An on 3 November 2026. The individual 15:50–16:05 EST slot is an estimate, not a separately confirmed organiser timetable.",
+      "session_start": "2026-11-10T15:20:00-05:00",
+      "session_end": "2026-11-10T16:35:00-05:00",
+      "speaking_order": [
+        "Jinan Parathi",
+        "Matthew Fanciulli",
+        "Hyeonjun An",
+        "David Meer",
+        "Christina Puijk"
+      ],
+      "estimated_talk": {
+        "status": "estimated",
+        "start": "2026-11-10T15:50:00-05:00",
+        "end": "2026-11-10T16:05:00-05:00",
+        "start_kst": "2026-11-11T05:50:00+09:00",
+        "end_kst": "2026-11-11T06:05:00+09:00",
+        "basis": "Third speaker in a 75-minute session with five speakers; assumes five equal 15-minute slots."
+      },
+      "schedule_image": {
+        "asset": "assets/conferences/dsoft-virtual-2026-schedule.webp",
+        "width": 1600,
+        "height": 2623,
+        "asset_sha256": "f92c6fb98fccd0833ac5137eeb569ee409bb3a3b4b58e0bbd1da854c55ac10a6",
+        "source_file_name": "VSCPromoSchedule(1)(4).pdf",
+        "source_sha256": "453a51d17b2c7bb59af48974f04ac1ebe1b689c1667c49226e6b3e8338b82de9",
+        "source_page": 1,
+        "modification": "Full PDF page rendered at 1600 pixels wide and encoded as WebP for web display. No cropping, relabelling, or content changes."
+      }
     }
   ]
 }
