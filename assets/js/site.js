@@ -19,6 +19,18 @@
     nav.classList.toggle('open', open);
   });
   nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => closeMenu()));
+  const isMenuTarget = target => menu.contains(target) || nav.contains(target);
+  document.addEventListener('click', event => {
+    if (menu.getAttribute('aria-expanded') === 'true' && !isMenuTarget(event.target)) closeMenu();
+  });
+  document.addEventListener('focusin', event => {
+    if (menu.getAttribute('aria-expanded') === 'true' && !isMenuTarget(event.target)) closeMenu();
+  });
+  const desktopNavigation = window.matchMedia('(min-width: 1101px)');
+  const resetDesktopMenu = () => { if (desktopNavigation.matches) closeMenu(); };
+  if (typeof desktopNavigation.addEventListener === 'function') desktopNavigation.addEventListener('change', resetDesktopMenu);
+  else if (typeof desktopNavigation.addListener === 'function') desktopNavigation.addListener(resetDesktopMenu);
+
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') closeMenu(true);
   });
@@ -121,12 +133,12 @@
     } else window.open(src, '_blank', 'noopener');
   };
   document.querySelectorAll('[data-image-title]').forEach(button => {
-    button.addEventListener('click', () => showImage(button.querySelector('img').src, button.dataset.imageTitle, button));
+    button.addEventListener('click', () => showImage(button.querySelector('img').currentSrc || button.querySelector('img').src, button.dataset.imageTitle, button));
   });
   document.querySelectorAll('[data-diagram-title]').forEach(button => {
     button.addEventListener('click', () => {
       const image = button.querySelector('img');
-      if (image) showImage(image.src, button.dataset.diagramTitle, button);
+      if (image) showImage(image.currentSrc || image.src, button.dataset.diagramTitle, button);
       else {
         const svg = new XMLSerializer().serializeToString(button.querySelector('svg'));
         showImage('data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg), button.dataset.diagramTitle, button);

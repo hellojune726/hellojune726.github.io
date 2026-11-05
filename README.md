@@ -17,14 +17,27 @@ Personal academic website for experimental soft matter physics at UNIST.
 | `assets/research/sources.json` | Figure provenance, publication metadata, and conference source notes |
 | `assets/research/`, `assets/diagrams/` | Original experimental figures and explanatory diagrams |
 | `assets/portrait/`, `assets/illustrations/` | Profile photo and personal illustrations |
-| `assets/fonts/` | Pretendard Variable and its SIL Open Font License |
+| `assets/fonts/` | Small site-specific font subset, original Pretendard Variable fallback, and SIL Open Font License |
 | `assets/cv/` | CV PDFs; the current download is linked from `index.html` |
+| `scripts/subset-font.py` | Regenerate the variable font subset while preserving glyph metrics and license credits |
 
-Reference images and fonts by their asset paths so they can be cached separately and images below the fold can load lazily. Updating an asset file now updates its displayed version; do not embed duplicate base64 copies in the HTML. Preserve experimental image pixels, labels, scale bars, and source credits.
+Reference images and fonts by their asset paths so they can be cached separately and images below the fold can load lazily. When replacing an asset, update its URL version in HTML or CSS; also update the stylesheet or script URL version when changing those files. Do not embed duplicate base64 copies in the HTML. Preserve experimental image pixels, labels, scale bars, and source credits.
 
 Publication year and online publication year can differ. The PVA paper is cited as *Journal of Colloid and Interface Science* **729**, 141826 (2027; published online in 2026).
 
 The 10 November 2026 APS DSOFT conference entry uses the supplied conference poster and promotional schedule. Session 4 runs 15:20–16:35 EST according to the session timing supplied by Hyeonjun An. The page shows the conference and session times. The full promotional schedule is in `assets/conferences/` and opens in the image viewer. Update the Upcoming entries after the event.
+
+## Font maintenance
+
+`HyeonjunSiteSans.woff2` contains the current site's glyphs, including the Korean name, at 40,756 bytes. Its glyph metrics and variable weight axis match the original 2,057,688-byte font. The original `PretendardVariable.woff2` remains the CSS fallback for future characters. The subset uses a distinct internal font name to respect Pretendard's reserved font name; retain the original license and credits.
+
+After adding characters, optionally regenerate the subset from the repository root:
+
+```sh
+python scripts/subset-font.py
+```
+
+The script requires `fontTools` and either Python Brotli or Node.js. It prints the resulting size, SHA-256, and Unicode range. Copy that range into the subset's `unicode-range` in `assets/css/site.css`, version the updated font URL, and refresh the stylesheet URL version in `index.html`. Then check that the browser loads the subset and preserves the layout.
 
 ## Validation
 
@@ -35,7 +48,7 @@ node --check assets/js/theme.js
 node --check assets/js/site.js
 ```
 
-Check the page in a browser, including the news-to-presentation link, publication filters followed by internal article links, light/dark appearance, figure enlargement, and popup closing. Verify local asset paths and internal anchors after moving files.
+Check the page at mobile and desktop widths, including menu dismissal by outside click, keyboard focus, Escape, and desktop resize; keyboard navigation from Skip to content; news-to-presentation links; publication filters followed by internal article links; system/light/dark appearance; figure enlargement; popup closing; and the CV download. Verify local asset paths, unique IDs, and internal anchors after moving files.
 
 ## Backup
 
