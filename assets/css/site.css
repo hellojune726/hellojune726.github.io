@@ -295,6 +295,15 @@ strong { font-weight: 650; }
 .principle-intro .subheading { margin: 0 0 20px; font-size: 1.4rem; font-weight: 600; }
 .principle-copy { margin: 0; max-width: 60ch; font-size: .95rem; line-height: 1.7; }
 .imaging-principle .public-result { margin: 0; max-width: none; }
+.imaging-principle.ct-explainer { grid-template-columns: minmax(0, .72fr) minmax(0, 1.28fr); }
+.ct-animation video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1040 / 580;
+  border-radius: var(--radius-sm);
+  background: #ededed;
+}
 .study { border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); margin: 0; min-width: 0; }
 .study > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 44px minmax(0, 1fr) 32px; gap: 20px; align-items: start; padding: 32px; }
 .study > summary::-webkit-details-marker { display: none; }

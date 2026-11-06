@@ -16,7 +16,7 @@
 <link rel="canonical" href="https://hellojune726.github.io/">
 <link rel="icon" type="image/png" sizes="128x128" href="assets/illustrations/droppy-face-favicon.png">
 <title>Hyeonjun An | Experimental Soft Matter Physics</title>
-<link rel="stylesheet" href="assets/css/site.css?v=883bf760e455">
+<link rel="stylesheet" href="assets/css/site.css?v=fc25327ae92a">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Hyeonjun An","alternateName":"안현준","url":"https://hellojune726.github.io/","email":"mailto:RNWK23@unist.ac.kr","jobTitle":"Ph.D. Candidate in Physics","affiliation":{"@type":"CollegeOrUniversity","name":"Ulsan National Institute of Science and Technology","alternateName":"UNIST"},"sameAs":["https://scholar.google.com/citations?user=ppHR-HMAAAAJ","https://orcid.org/0009-0000-5316-6264","https://github.com/hellojune726"],"knowsAbout":["Soft matter physics","Neutron imaging","Synchrotron X-ray imaging","Polymer swelling","Hygroscopic liquids","Droplet freezing","Porous media"]}</script>
 </head>
 <body>
@@ -51,8 +51,11 @@
     <source
       type="image/webp"
       media="(max-width: 700px)"
-      srcset="assets/portrait/hyeonjun-an-mobile-220.webp 220w,
+      srcset="assets/portrait/hyeonjun-an-mobile-180.webp 180w,
+              assets/portrait/hyeonjun-an-mobile-220.webp 220w,
+              assets/portrait/hyeonjun-an-mobile-360.webp 360w,
               assets/portrait/hyeonjun-an-mobile-440.webp 440w,
+              assets/portrait/hyeonjun-an-mobile-540.webp 540w,
               assets/portrait/hyeonjun-an-mobile-660.webp 660w"
       sizes="(max-width: 360px) calc(50vw - 26px),
              (max-width: 503px) calc(50vw - 32px),
@@ -67,8 +70,8 @@
              (max-width: 1200px) calc(20.833333vw - 21.666667px),
              (max-width: 1344px) calc(20.833333vw - 33.333333px),
              246.666667px">
-    <img class="profile-photo" src="assets/portrait/hyeonjun-an.jpg"
-         width="2048" height="1358" alt="Hyeonjun An beside a pond"
+    <img class="profile-photo" src="assets/portrait/hyeonjun-an-fallback-640.jpg"
+         width="640" height="424" alt="Hyeonjun An beside a pond"
          fetchpriority="high">
   </picture>
 </figure>
@@ -85,6 +88,8 @@
 <li><time datetime="2026-11-10">10 Nov</time><div><span class="badge upcoming">Upcoming</span> Oral presentation on <a href="#poster-itmnr-swelling-2026">Polymer swelling</a> @ <a href="#talk-dsoft-virtual-2026">APS DSOFT Students’ Virtual Conference</a><br><a href="https://apsphysics.zoom.us/meeting/register/6ojzNfy0TRiNlgQaa0Y98Q#/registration" target="_blank" rel="noopener noreferrer">Registration ↗</a> · <a href="#dsoft-virtual-2026-schedule">Schedule ↓</a></div>
 </li>
 <li><time datetime="2026-11-05">Nov 2026</time><div><span class="badge award">Poster Award</span><a href="#poster-hanaro-swelling-2026">Polymer swelling</a> · HANARO Symposium 2026.</div>
+</li>
+<li><time datetime="2026-11">Nov 2026</time><div><span class="badge accepted">Accepted</span> Poster presentation at <a href="#poster-sisnsc27">SISNSC27</a>.</div>
 </li>
 <li><time datetime="2026-10">Oct 2026</time><div><span class="badge accepted">Accepted</span> <a href="#manuscript-water-freezing">Bubble encapsulation in freezing droplet</a> · <em>Newton</em>.</div>
 </li>
@@ -162,6 +167,21 @@
     <h3 id="x-ray-imaging-heading">Synchrotron X-ray imaging</h3>
     <p>Time-resolved radiography and CT reveal freezing fronts, trapped bubbles, and three-dimensional microstructure.</p>
    </header>
+   <section class="imaging-principle ct-explainer" id="xray-ct-animation" aria-labelledby="xray-ct-heading">
+    <div class="principle-intro">
+     <h4 class="subheading" id="xray-ct-heading">How X-ray CT sees inside a pen tip</h4>
+     <p class="principle-copy" id="xray-ct-summary">The ball in this pen tip is 1 mm across. As the tip rotates, a detector records X-ray shadows from different angles. Computed tomography (CT) combines those views into slices and a 3D image of the inside.</p>
+     <div class="small-links"><a href="#jcis-ct-structure">See X-ray CT of frozen droplets ↓</a></div>
+    </div>
+    <figure class="ct-animation">
+     <video controls playsinline preload="none" width="1040" height="580"
+            poster="assets/research/xray-ct-ballpoint-poster.png"
+            aria-label="Synchrotron X-ray CT animation of a ballpoint pen tip" aria-describedby="xray-ct-summary">
+      <source src="assets/research/xray-ct-ballpoint.mp4" type="video/mp4">
+     </video>
+     <figcaption class="figure-caption">Schematic animation</figcaption>
+    </figure>
+   </section>
    <div class="research-studies">
     <details class="study" id="freezing-droplets" open="">
 <summary><span class="study-number">04</span><span><span class="study-title" role="heading" aria-level="4">Freezing aqueous solution</span><span class="study-question">How do bubbles and solutes affect tip morphology?</span></span>
@@ -252,6 +272,13 @@
      <img src="assets/conferences/dsoft-virtual-2026-schedule.webp?v=89456ac595bc" width="1600" height="2623" alt="Promotional schedule for the APS DSOFT Students’ Virtual Conference on 10 November 2026, 10 a.m.–5 p.m. EST. The four sessions and their speakers are listed. Hyeonjun An is the third speaker in Session 4: Complex and Interfacial Flows, with the talk Quantifying polymer swelling kinetics via neutron radiography." loading="lazy" decoding="async">
     </button>
    </figure>
+  </div>
+ </article>
+ <article class="presentation-item" id="poster-sisnsc27">
+  <div class="presentation-date"><time datetime="2027-01">Jan 2027</time></div>
+  <div><span class="badge accepted">Accepted</span>
+   <h4>International SISN Neutron Science Conference 2027 (SISNSC27)</h4>
+   <p>18–21 Jan 2027 · Florence, Italy<br>Poster presentation<br><a href="https://www.sisn.it/sisnsc/general-information/" target="_blank" rel="noopener noreferrer">Conference information ↗</a></p>
   </div>
  </article>
 </div>
