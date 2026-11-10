@@ -25,7 +25,7 @@ Reference images and fonts by their asset paths so they can be cached separately
 
 Publication year and online publication year can differ. The PVA paper is cited as *Journal of Colloid and Interface Science* **729**, 141826 (2027; published online in 2026).
 
-The 10 November 2026 APS DSOFT oral presentation is listed as completed. Its supplied promotional schedule is retained in `assets/conferences/` as a historical record and opens in the image viewer.
+The 10 November 2026 APS DSOFT entry lists the presentation title, conference name, and contribution type. The supplied promotional schedule is archived in `assets/conferences/`.
 
 ## Font maintenance
 
