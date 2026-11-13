@@ -300,7 +300,7 @@ strong { font-weight: 650; }
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 1040 / 580;
+  aspect-ratio: 1040 / 500;
   border-radius: var(--radius-sm);
   background: #ededed;
 }
