@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-13",
   "figures": [
     {
       "container": "neutron-composition",
@@ -89,6 +89,33 @@
       "source_url": "https://arxiv.org/abs/2511.20571v1",
       "source_label": "Im et al., public preprint arXiv:2511.20571v1, Fig. 2",
       "modification": "Original panels, scales, and measured data preserved."
+    },
+    {
+      "container": "public-swelling-results",
+      "asset": "assets/research/polymer-swelling-graphical-abstract.webp",
+      "width": 1200,
+      "height": 1480,
+      "viewer_title": "Polymer swelling · Neutron radiography and Abel inversion",
+      "alt": "Solvent diffuses into an initially uniform polymer sphere. Neutron radiography and Abel inversion show a solvent-rich outer shell and a solvent-poor core.",
+      "caption": "Neutron radiography and Abel inversion reveal a solvent-rich shell around a solvent-poor core during swelling.",
+      "source_file_name": "GA.pdf",
+      "source_sha256": "1ab091cb97a65ffdff9e71badf1e1796cde753d6f681cdc5d7487548116fd6c9",
+      "source_page": 1,
+      "asset_sha256": "920a860096fd2c31076dfa20ab4129074823d0bd1104f1027e5fa704a127d088",
+      "modification": "Full PDF page rendered in RGB at 1200 pixels wide and encoded as lossless WebP. The composition, labels, and color scale are preserved."
+    },
+    {
+      "container": "public-porous-results",
+      "asset": "assets/research/porous-gypsum-uptake.webp",
+      "width": 588,
+      "height": 724,
+      "viewer_title": "Liquid uptake in gypsum · Neutron radiography and SEM",
+      "alt": "Side and top views of neutron radiography of a gypsum cylinder in a liquid bath, the Beer–Lambert attenuation model, and a gypsum photograph paired with a scanning electron micrograph of its cross-section.",
+      "caption": "Neutron radiography tracks liquid uptake in a gypsum cylinder. The SEM image shows the gypsum microstructure.",
+      "source_file_name": "image(4).png",
+      "source_sha256": "fcd9c9b090185e589e493252f758c50e0f71109ea83224c693b421e54153a3b0",
+      "asset_sha256": "b4e5936434855fee3bd0695cd77279ba060993d9ec7ccd40f3c6e7f118fb5e3c",
+      "modification": "Original 588 by 724 pixel PNG converted to lossless WebP. All RGB pixels, labels, and scale bars are preserved."
     }
   ],
   "detector_palette": {
