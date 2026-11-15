@@ -350,6 +350,7 @@ strong { font-weight: 650; }
 #wcnr-experiment .experiment-step:last-child { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; align-items: center; }
 #wcnr-experiment .experiment-step:last-child h5 { grid-column: 1 / -1; }
 #wcnr-experiment .experiment-step:last-child figcaption { margin-top: 0; }
+#freezing-droplets .experiment-method { margin: 0 0 36px; }
 #freezing-droplets .experiment-panels { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); }
 .freezing-resolve { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 32px; }
 .method-evidence { margin: 20px auto 0; max-width: 760px; }
